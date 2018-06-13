@@ -1,0 +1,127 @@
+body {
+    background-color: #ede7f6;
+    font-family: Roboto, Arial;
+    margin: 0;
+}
+
+div {
+    display: block;
+}
+
+main {
+    margin: auto;
+    width: 40%;
+    margin-top: -50px;
+    background-color: #fff;
+    margin-bottom: 48px;
+    -webkit-box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.37);
+    word-wrap: break-word;
+}
+
+.banner {
+    height: 200px;
+    background-color: #005eac;
+    color: rgba(255, 255, 255, 1);
+}
+
+.accentBanner {
+    background-color: #0070cc;
+    color: rgba(0, 0, 0, 1);
+    height: 8px;
+}
+
+.box {
+    color: rgba(0,0,0,.87);
+    padding: 34px 0;
+    
+    padding-left: 34px;
+    padding-right: 34px;
+}
+
+.titleBox {
+    padding: 0;
+    margin-bottom: 22px;
+}
+.titleRow {
+    -webkit-box-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#title {
+    font-size: 26px;
+    font-weight: bold;
+    box-sizing: border-box;
+    line-height: 135%;
+    max-width: 100%;
+    min-width: 0%;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+#question {
+    font-size: 20px;
+    line-height: 135%;
+    width: 100%;
+}
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+#option {
+    width: 95%;
+    height: 24px;
+    position: relative;
+    padding: 10px;
+    padding-left: 5px;
+    margin: 5px;
+    margin-left: 0;
+}
+#option:hover {
+    background-color: rgba(185, 185, 185, 0.5);
+}
+#optionText {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    height: 100%;   
+    margin-left: 30px;
+}
+svg {
+    position: absolute;
+    margin-right: 30px;
+}
+svg#button path {
+    fill: #686868;
+}
+button {
+    border: 0;
+    border-radius: 0px;
+    box-shadow: 0px 1px 3px #666666;
+    background: rgb(228, 228, 228);
+    padding: 10px 22px 10px 22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Roboto, Arial;
+    color: #313131;
+    font-weight: normal;
+    font-weight: bold;
+    margin-right: 10px; 
+}
+button:active {
+    background: rgb(199, 199, 199);
+}
+button.accent {
+    background: #0070cc;
+}
+
+.outro {
+    font-size: 20px;
+}
